@@ -28,7 +28,7 @@ summary {
 audio,
 canvas,
 video {
-  display: inline-block;
+  display: hinline-block;
 }
 
 audio:not([controls]) {
