@@ -1,4 +1,7 @@
 Frabbit::Application.routes.draw do
+  get "profiles/user"
+  get "profiles/fitnessClub"
+  get "profiles/instructor"
     root to: "welcome#index"
 
   get "welcome/index"
