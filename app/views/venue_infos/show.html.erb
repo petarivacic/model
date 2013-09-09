@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @venue_info.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @venue_info.description %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+<%= image_tag(@venue_info.picture_url, :width => 200) if @venue_info.picture.present? %>
+</p>
+
+<%= link_to 'Edit', edit_venue_info_path(@venue_info) %> |
+<%= link_to 'Back', venue_infos_path %>

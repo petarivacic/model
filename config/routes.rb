@@ -1,4 +1,8 @@
 Frabbit::Application.routes.draw do
+  resources :venue_infos
+
+  resources :venues
+
   get "profiles/user"
   get "profiles/fitnessClub"
   get "profiles/instructor"

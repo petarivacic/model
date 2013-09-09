@@ -35,6 +35,8 @@ end
 gem 'therubyracer'  # If using Ruby
 gem 'jquery-rails'  # If using Bootstrap's JS plugins.
 gem 'less-rails-bootstrap'
+gem 'devise'
+gem 'carrierwave'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
